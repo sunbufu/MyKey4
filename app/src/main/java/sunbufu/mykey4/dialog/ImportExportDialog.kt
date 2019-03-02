@@ -10,29 +10,25 @@ import sunbufu.mykey4.R
 /**
  * 导入导出弹出框
  */
-class ImportExportDialog(context: Context, text: String = "", type: Int = IMPORT, callback: (ImportExportDialog, String) -> Unit) : Dialog(context) {
+class ImportExportDialog(context: Context, var text: String = "", var type: Int = IMPORT, var callback: (ImportExportDialog, String) -> Unit) : Dialog(context) {
 
     companion object {
-        val IMPORT = 0
-        val EXPORT = 1
+        const val IMPORT = 0
+        const val EXPORT = 1
     }
 
-    /**模式*/
-    var type: Int = type
-    var text: String = text
-    var callback: (ImportExportDialog, String) -> Unit = callback
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dialog_import_export)
 
         textView.setText(text)
         if (type == IMPORT) {
-            postiveBtn.setText("导入")
-            msgText.setText("请粘贴文本并导入")
+            postiveBtn.text = "导入"
+            msgText.text = "请粘贴文本并导入"
         } else if (type == EXPORT) {
-            postiveBtn.setText("复制")
+            postiveBtn.text = "复制"
             textView.isFocusable = false
-            msgText.setText("请复制并保存上面的文本")
+            msgText.text = "请复制并保存上面的文本"
         }
         postiveBtn.setOnClickListener { callback(this, textView.text.toString()) }
     }

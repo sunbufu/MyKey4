@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidWorkSpace\\MyKey4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "/Users/sunbufu/AndroidStudioProjects/MyKey4/E:\\AndroidWorkSpace\\MyKey4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sunyoubufu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f0133e3f154c09133daaee5c01ddf03f\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/Users/sunbufu/AndroidStudioProjects/MyKey4/C:\\Users\\sunyoubufu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f0133e3f154c09133daaee5c01ddf03f\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/sunbufu/AndroidStudioProjects/MyKey4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

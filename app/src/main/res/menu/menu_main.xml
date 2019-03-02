@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="sunbufu.mykey4.MainActivity">
     <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="90"
+        android:title="搜索按钮"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/action_import"
         android:orderInCategory="100"
         android:title="导入"

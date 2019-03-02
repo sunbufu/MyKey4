@@ -1,205 +1,205 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-MERGED from [org.litepal.android:core:1.6.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\5a08b97e01b08521c950a7c4f5d46997\AndroidManifest.xml:2:1-16:12
-MERGED from [com.github.tozny:java-aes-crypto:1.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\java-aes-crypto-1.1.0.aar\37d0cb9dbd4a04bf450e70f485987931\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e1ac252546cb8237f9604e72543692bd\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:17:1-30:12
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [org.litepal.android:core:1.6.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/core-1.6.0.aar/9fe881cae53c0a27b151745e7ed05e9e/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.tozny:java-aes-crypto:1.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/16fd4ead828ac68127983df9bbb4caf9/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fea78346d0b6f4f1f517e8e22b489066/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:3:5-29
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:5:5-74
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:5:5-74
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:5:22-71
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:5:22-71
 application
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:7:5-33:19
-MERGED from [org.litepal.android:core:1.6.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\5a08b97e01b08521c950a7c4f5d46997\AndroidManifest.xml:11:5-14:19
-MERGED from [org.litepal.android:core:1.6.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\5a08b97e01b08521c950a7c4f5d46997\AndroidManifest.xml:11:5-14:19
-MERGED from [com.github.tozny:java-aes-crypto:1.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\java-aes-crypto-1.1.0.aar\37d0cb9dbd4a04bf450e70f485987931\AndroidManifest.xml:10:5-20
-MERGED from [com.github.tozny:java-aes-crypto:1.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\java-aes-crypto-1.1.0.aar\37d0cb9dbd4a04bf450e70f485987931\AndroidManifest.xml:10:5-20
-MERGED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e1ac252546cb8237f9604e72543692bd\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e1ac252546cb8237f9604e72543692bd\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:24:5-28:19
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:7:5-33:19
+MERGED from [org.litepal.android:core:1.6.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/core-1.6.0.aar/9fe881cae53c0a27b151745e7ed05e9e/AndroidManifest.xml:11:5-14:19
+MERGED from [org.litepal.android:core:1.6.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/core-1.6.0.aar/9fe881cae53c0a27b151745e7ed05e9e/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.tozny:java-aes-crypto:1.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/16fd4ead828ac68127983df9bbb4caf9/AndroidManifest.xml:10:5-20
+MERGED from [com.github.tozny:java-aes-crypto:1.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/16fd4ead828ac68127983df9bbb4caf9/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fea78346d0b6f4f1f517e8e22b489066/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fea78346d0b6f4f1f517e8e22b489066/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:14:9-40
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:8:9-40
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:8:9-40
 activity#sunbufu.mykey4.activity.WelcomeActivity
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:theme
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:17:13-48
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:17:13-48
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:16:13-53
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:16:13-53
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:21:27-74
 activity#sunbufu.mykey4.activity.MainActivity
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:24:9-27:59
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:24:9-27:59
 	android:label
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:26:13-45
 	android:theme
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:27:13-56
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:25:13-50
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:25:13-50
 activity#sunbufu.mykey4.activity.UpdateActivity
-ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:28:9-31:59
+ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:28:9-31:59
 	android:label
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:30:13-45
 	android:theme
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml:29:13-52
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml:29:13-52
 uses-sdk
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-MERGED from [org.litepal.android:core:1.6.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\5a08b97e01b08521c950a7c4f5d46997\AndroidManifest.xml:7:5-9:41
-MERGED from [org.litepal.android:core:1.6.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\5a08b97e01b08521c950a7c4f5d46997\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.tozny:java-aes-crypto:1.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\java-aes-crypto-1.1.0.aar\37d0cb9dbd4a04bf450e70f485987931\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.tozny:java-aes-crypto:1.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\java-aes-crypto-1.1.0.aar\37d0cb9dbd4a04bf450e70f485987931\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e1ac252546cb8237f9604e72543692bd\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e1ac252546cb8237f9604e72543692bd\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+MERGED from [org.litepal.android:core:1.6.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/core-1.6.0.aar/9fe881cae53c0a27b151745e7ed05e9e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.litepal.android:core:1.6.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/core-1.6.0.aar/9fe881cae53c0a27b151745e7ed05e9e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tozny:java-aes-crypto:1.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/16fd4ead828ac68127983df9bbb4caf9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.tozny:java-aes-crypto:1.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/16fd4ead828ac68127983df9bbb4caf9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fea78346d0b6f4f1f517e8e22b489066/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fea78346d0b6f4f1f517e8e22b489066/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidWorkSpace\MyKey4\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunbufu/AndroidStudioProjects/MyKey4/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f0133e3f154c09133daaee5c01ddf03f\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\073d39e47d547c96f875289601b89c07\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\857cc5675139a0151c96472c20af9639\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\041ed210639bfd0e9121935849367c04\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f0fe1444d54e891883131b3ff73b3820\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c4343f2fc3bb7cef8ee8dcbf0d8710d4\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d70bb4de59ff980388fdf7b24573a70c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\0274c50d836f8ad240499c5631ddba81\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6c45613eadaaf411363d089063268e02\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\570e50c3670bb784158ccf1f1dbb31a0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\9af38cbfd538c9c8c3f07b105c74a7b8\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6e559610aa8c210394f7df519060445a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f25f74b43d00c6aa06da5c9de23259a6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c3da2598dcd71cd12ef2a411355b5ea7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/baf90951c0cadcacc6814418b54d5075/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2643face58c5324e0f4061c72bd5842e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/336df85032d8339a858c9107c552a8db/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bb51c5ae3f92b5fda1e0a0c8bf71ac3f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8463353d47912d0e1026804d946d2cf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c1a36b9fedf8e20b694fe7e8983e378e/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\97431b00739072947017b68a3aaac030\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/948fcc6603de1acffef4d230842327ea/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sunyoubufu\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\40a1501c956a31523dab7f7c30450483\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/sunbufu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2d6f53c12ffb14b89ad3449738fe7eee/AndroidManifest.xml:26:13-58

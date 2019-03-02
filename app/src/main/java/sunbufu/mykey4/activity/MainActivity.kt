@@ -9,11 +9,14 @@ import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import android.text.Editable
 import android.text.TextUtils
+import android.text.TextWatcher
 import android.view.KeyEvent
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.view.inputmethod.InputMethodManager
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.android.synthetic.main.activity_main.*
@@ -31,14 +34,18 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     companion object {
-        val NOACTION = -1
-        val INSERT = 1
-        val DELETE = 2
-        val UPDATE = 3
+        /**无变化*/
+        const val NO_ACTION = -1
+        /**插入*/
+        const val INSERT = 1
+        /**删除*/
+        const val DELETE = 2
+        /**更新*/
+        const val UPDATE = 3
     }
 
-    var exitTime = 0L
-    lateinit var accounts: MutableList<Account>
+    private var exitTime = 0L
+    private lateinit var accounts: MutableList<Account>
     lateinit var adapter: RecycleAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,8 +59,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initData() {
         accounts = DataSupport.findAll(Account::class.java)
-        Collections.sort(accounts)
-        LogUtils.e(accounts)
+        accounts.sort()
         adapter = RecycleAdapter(this, accounts)
     }
 
@@ -61,21 +67,32 @@ class MainActivity : AppCompatActivity() {
 
     private fun initView() {
         fab.setOnClickListener { update() }
-        recyclerView.layoutManager = LinearLayoutManager(this) as RecyclerView.LayoutManager?
+
+        recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
         adapter.clickCallback = { update(it) }
         adapter.longClickCallback = {
-            var account = accounts[it]
+            val account = accounts[it]
             android.support.v7.app.AlertDialog.Builder(this)
                     .setTitle("提示")
-                    .setMessage("确定删除[${account.genTitle()}]账号信息吗？")
-                    .setPositiveButton("删除", { dialog, which ->
+                    .setMessage("确定删除[${account.getTitle()}]账号信息吗？")
+                    .setPositiveButton("删除") { dialog, which ->
                         deleteAccount(account)
                         adapter.notifyDataSetChanged()
-                    })
-                    .setNegativeButton("取消", { dialog, which -> dialog.dismiss() })
+                    }
+                    .setNegativeButton("取消") { dialog, which -> dialog.dismiss() }
                     .show()
         }
+        //过滤输入框
+        filterEditText.addTextChangedListener(object : TextWatcher {
+            override fun onTextChanged(sequence: CharSequence, i: Int, i1: Int, i2: Int) {
+                adapter.filter.filter(sequence.toString())
+            }
+
+            override fun beforeTextChanged(sequence: CharSequence, i: Int, i1: Int, i2: Int) {}
+            override fun afterTextChanged(editable: Editable) {}
+        })
+
         toolbar.setOnClickListener {
             if (toolbarTimes++ >= 10) {
                 toolbarTimes = 0
@@ -84,6 +101,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * 跳转到更新页面
+     */
     fun update(id: Int = -1) {
         val intent = Intent()
         if (id != -1)
@@ -99,23 +119,36 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            R.id.search -> {
+                val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+                if (View.VISIBLE == filterEditText.visibility) {
+                    filterEditText.setText("")
+                    filterEditText.visibility = View.GONE
+                    imm.hideSoftInputFromWindow(filterEditText.windowToken, 0)
+                } else {
+                    filterEditText.visibility = View.VISIBLE
+                    filterEditText.requestFocus()
+                    imm.showSoftInput(filterEditText, 0)
+                }
+                return true
+            }
             R.id.action_export -> {
-                var gson = Gson()
+                val gson = Gson()
                 val type = object : TypeToken<List<Account>>() {}.type;
-                var str = gson.toJson(accounts, type)
-                ImportExportDialog(this, AESUtil.encrypt(str), ImportExportDialog.EXPORT, { dialog, string ->
-                    var cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                    cm.primaryClip = ClipData.newPlainText("passWord from MyKey4", string)
+                val str = gson.toJson(accounts, type)
+                ImportExportDialog(this, str, ImportExportDialog.EXPORT) { dialog, string ->
+                    val cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                    cm.primaryClip = ClipData.newPlainText("account from MyKey4", string)
                     MainApplication.instance.toast("复制完成")
-                }).show()
+                }.show()
                 return true
             }
             R.id.action_import -> {
-                var gson = Gson()
+                val gson = Gson()
                 val type = object : TypeToken<List<Account>>() {}.type;
-                ImportExportDialog(this, "", ImportExportDialog.IMPORT, { dialog, string ->
+                ImportExportDialog(this, "", ImportExportDialog.IMPORT) { dialog, string ->
                     try {
-                        var importAccounts: List<Account> = gson.fromJson(AESUtil.decrypt(string), type)
+                        val importAccounts: List<Account> = gson.fromJson(string, type)
                         for (account in importAccounts)
                             Account(account.id, account.name, account.userName, account.passWord, account.deatil).save()
                         accounts.addAll(importAccounts)
@@ -124,15 +157,19 @@ class MainActivity : AppCompatActivity() {
                         MainApplication.instance.toast("导入成功")
                         dialog.dismiss()
                     } catch (e: Exception) {
+                        LogUtils.e(e)
                         MainApplication.instance.toast("导入失败，请检查文本复制是否完整")
                     }
-                }).show()
+                }.show()
                 return true
             }
             R.id.action_about -> {
                 AlertDialog.Builder(this)
                         .setTitle("MyKey4")
-                        .setMessage("非常感谢您下载体验 MyKey4 。 \nMyKey4是由本人独立开发完成的一款用于存储用户密码的软件。 \n该软件没有联网等任何多余权限，可放心使用。 \n如有问题，欢迎随时联系我：sunyoubufu@qq.com")
+                        .setMessage("非常感谢您下载体验 MyKey4 。 \nMyKey4是由本人独立开发完成的一款用于存储用户密码的软件。 \n该软件没有联网等任何多余权限，可放心使用。 \n如有问题，欢迎随时联系我：sunyoubufu@qq.com, 也欢迎 star。")
+                        .setNegativeButton("github") { dialogInterface, i ->
+                            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/sunbufu/MyKey4")))
+                        }
                         .setPositiveButton("联系我") { dialogInterface, i ->
                             val data = Intent(Intent.ACTION_SENDTO)
                             data.data = Uri.parse("mailto:sunyoubufu@qq.com")
@@ -149,7 +186,7 @@ class MainActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
             1000 -> {//updateActivity的回调
-                var cmd = data.getIntExtra("cmd", NOACTION)
+                val cmd = data.getIntExtra("cmd", NO_ACTION)
                 val account = data.getSerializableExtra("account") as Account
                 when (cmd) {
                     INSERT -> {
@@ -160,7 +197,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     UPDATE -> {
                         if (!TextUtils.isEmpty(account.name) && account.id != -1) {
-                            var oldAccount: Account? = findOldAccount(account.id)
+                            val oldAccount: Account? = findOldAccount(account.id)
                             if (oldAccount != null && !oldAccount.equals(account)) {
                                 oldAccount.copy(account)
                                 oldAccount.save()
@@ -178,7 +215,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**删除account*/
-    fun deleteAccount(account: Account) {
+    private fun deleteAccount(account: Account) {
         var oldAccount: Account? = findOldAccount(account.id)
         if (oldAccount != null) {
             oldAccount.delete()
@@ -187,7 +224,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**根据ID在accounts内查找*/
-    fun findOldAccount(id: Int = -1): Account? {
+    private fun findOldAccount(id: Int = -1): Account? {
         var oldAccount: Account? = null;//accounts.map { if (it.id == account.id) it else null }
         if (id != -1)
             for (temp in accounts) {

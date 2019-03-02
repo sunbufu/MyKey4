@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidWorkSpace\\MyKey4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/sunbufu/AndroidStudioProjects/MyKey4/E:\\AndroidWorkSpace\\MyKey4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sunyoubufu\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\d70bb4de59ff980388fdf7b24573a70c\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/sunbufu/AndroidStudioProjects/MyKey4/C:\\Users\\sunyoubufu\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\d70bb4de59ff980388fdf7b24573a70c\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,39 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sunyoubufu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f0133e3f154c09133daaee5c01ddf03f\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/sunbufu/AndroidStudioProjects/MyKey4/C:\\Users\\sunyoubufu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f0133e3f154c09133daaee5c01ddf03f\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/sunbufu/AndroidStudioProjects/MyKey4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/sunbufu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bc8682b21912f4621636a715b72fd427/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                },
+                {
+                    "source": "/Users/sunbufu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/66f696f58734706e8df86e820a6ceff1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

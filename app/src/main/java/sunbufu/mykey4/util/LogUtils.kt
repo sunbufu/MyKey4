@@ -10,7 +10,7 @@ class LogUtils {
     companion object {
 
         /**Log的前缀*/
-        var tagPrefix: String = "sunbufuLogUtil"
+        var tagPrefix: String = "MyKey4"
 
         /**日志是否打印的标识*/
         val flag: Boolean = true;
@@ -26,8 +26,8 @@ class LogUtils {
          */
         private fun log(type: String, any: Any) {
             if (!flag) return
-            var msg = any.toString()
-            var tag = getTag(getCallerStackTraceElement())
+            val msg = any.toString()
+            val tag = getTag(getCallerStackTraceElement())
             when (type) {
                 "d" -> Log.d(tag, msg)
                 "i" -> Log.i(tag, msg)

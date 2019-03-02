@@ -10,10 +10,19 @@ import java.util.*
 class Account(id: Int = 0, name: String = "", userName: String = "", passWord: String = "", deatil: String = "") : Serializable, DataSupport(), Comparable<Account> {
     @Column(unique = true, defaultValue = "unknown")
     var id = id
-    var name = name//名称(这个账号)
-    var userName = userName//账号
-    var passWord = passWord//密码
-    var deatil = deatil//描述
+    /**名称(这个账号)*/
+    var name = name
+    /**账号*/
+    var userName = userName
+    /**密码*/
+    var passWord = passWord
+    /**描述*/
+    var deatil = deatil
+
+    /**生成标题*/
+    fun getTitle(): String {
+        return name + (if (TextUtils.isEmpty(deatil)) "" else "($deatil)")
+    }
 
     override fun compareTo(other: Account): Int {
         val collator = Collator.getInstance(Locale.CHINA)
@@ -54,10 +63,4 @@ class Account(id: Int = 0, name: String = "", userName: String = "", passWord: S
         this.deatil = newAccount.deatil
     }
 
-    fun genTitle(): String {
-        if (TextUtils.isEmpty(deatil))
-            return "$name"
-        else
-            return "$name($deatil)"
-    }
 }

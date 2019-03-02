@@ -11,17 +11,14 @@ import sunbufu.mykotlin.util.LogUtils
 /**
  *  指纹识别工具类
  */
-class FingerprintHelper(fingerprintManager: FingerprintManager, icon: ImageView, text: TextView) {
+class FingerprintHelper(private var fingerprintManager: FingerprintManager, var icon: ImageView, var text: TextView) {
 
     val ERROR_TIMEOUT_MILLIS = 1600L
     val SUCCESS_DELAY_MILLIS = 1300L
 
-    var fingerprintManager: FingerprintManager = fingerprintManager
-    var authenticationCallback: AuthenticationCallback
+    private var authenticationCallback: AuthenticationCallback
     var resetTextRunnable: Runnable
 
-    var icon: ImageView = icon
-    var text: TextView = text
     var cancellationSignal: CancellationSignal? = null
 
     var authSuccess = {}

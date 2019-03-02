@@ -17,7 +17,6 @@ import android.content.ClipData
 import android.text.TextUtils
 import sunbufu.mykey4.MainApplication
 
-
 /**
  * 修改界面
  */
@@ -103,10 +102,10 @@ class UpdateActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     /**保存并退出*/
-    fun exit(cmd: Int = MainActivity.NOACTION) {
+    fun exit(cmd: Int = MainActivity.NO_ACTION) {
         val intent = Intent()
 
-        if (cmd == MainActivity.NOACTION) {
+        if (cmd == MainActivity.NO_ACTION) {
             intent.putExtra("cmd", if (account == null) MainActivity.INSERT else MainActivity.UPDATE)//判断是修改还是新建
         } else {
             intent.putExtra("cmd", cmd)
