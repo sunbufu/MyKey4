@@ -26,7 +26,6 @@ import sunbufu.mykey4.R
 import sunbufu.mykey4.adapter.RecycleAdapter
 import sunbufu.mykey4.dialog.ImportExportDialog
 import sunbufu.mykey4.model.Account
-import sunbufu.mykey4.util.AESUtil
 import sunbufu.mykotlin.util.LogUtils
 import java.util.*
 
@@ -120,22 +119,11 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.search -> {
-                val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-                if (View.VISIBLE == filterEditText.visibility) {
-                    filterEditText.setText("")
-                    filterEditText.visibility = View.GONE
-                    imm.hideSoftInputFromWindow(filterEditText.windowToken, 0)
-                } else {
-                    filterEditText.visibility = View.VISIBLE
-                    filterEditText.requestFocus()
-                    imm.showSoftInput(filterEditText, 0)
-                }
+                setFilterEditTextVisibility(View.VISIBLE != filterEditText.visibility)
                 return true
             }
             R.id.action_export -> {
-                val gson = Gson()
-                val type = object : TypeToken<List<Account>>() {}.type;
-                val str = gson.toJson(accounts, type)
+                val str = Gson().toJson(accounts, object : TypeToken<List<Account>>() {}.type)
                 ImportExportDialog(this, str, ImportExportDialog.EXPORT) { dialog, string ->
                     val cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
                     cm.primaryClip = ClipData.newPlainText("account from MyKey4", string)
@@ -144,11 +132,9 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.action_import -> {
-                val gson = Gson()
-                val type = object : TypeToken<List<Account>>() {}.type;
                 ImportExportDialog(this, "", ImportExportDialog.IMPORT) { dialog, string ->
                     try {
-                        val importAccounts: List<Account> = gson.fromJson(string, type)
+                        val importAccounts: List<Account> = Gson().fromJson(string, object : TypeToken<List<Account>>() {}.type)
                         for (account in importAccounts)
                             Account(account.id, account.name, account.userName, account.passWord, account.deatil).save()
                         accounts.addAll(importAccounts)
@@ -179,6 +165,20 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    /**设置搜索框是否可见*/
+    private fun setFilterEditTextVisibility(visible: Boolean) {
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        if (visible) {
+            filterEditText.visibility = View.VISIBLE
+            filterEditText.requestFocus()
+            imm.showSoftInput(filterEditText, 0)
+        } else {
+            filterEditText.setText("")
+            filterEditText.visibility = View.GONE
+            imm.hideSoftInputFromWindow(filterEditText.windowToken, 0)
         }
     }
 
@@ -216,7 +216,7 @@ class MainActivity : AppCompatActivity() {
 
     /**删除account*/
     private fun deleteAccount(account: Account) {
-        var oldAccount: Account? = findOldAccount(account.id)
+        val oldAccount: Account? = findOldAccount(account.id)
         if (oldAccount != null) {
             oldAccount.delete()
             accounts.remove(oldAccount)
@@ -225,7 +225,7 @@ class MainActivity : AppCompatActivity() {
 
     /**根据ID在accounts内查找*/
     private fun findOldAccount(id: Int = -1): Account? {
-        var oldAccount: Account? = null;//accounts.map { if (it.id == account.id) it else null }
+        var oldAccount: Account? = null//accounts.map { if (it.id == account.id) it else null }
         if (id != -1)
             for (temp in accounts) {
                 if (temp.id == id)
@@ -237,7 +237,9 @@ class MainActivity : AppCompatActivity() {
     /**连续按返回键两次，退出程序*/
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
         if (keyCode == KeyEvent.KEYCODE_BACK && event.action == KeyEvent.ACTION_DOWN) {
-            if (System.currentTimeMillis() - exitTime > 2000) {
+            if (View.VISIBLE == filterEditText.visibility) {
+                setFilterEditTextVisibility(false)
+            } else if (System.currentTimeMillis() - exitTime > 2000) {
                 MainApplication.instance.toast("再按一次退出程序")
                 exitTime = System.currentTimeMillis()
             } else {
