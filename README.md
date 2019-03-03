@@ -7,6 +7,6 @@ kotlin开发的，密码本软件。
 下载地址 <https://github.com/sunbufu/MyKey4/raw/master/app/release/app-release.apk>
 
 ## 应用截图
-<img src="doc/img/finger.jpg" width="280"/>
+<img src="doc/img/finger.png" width="280"/>
 <img src="doc/img/main.jpg" width="280"/>
-<img src="doc/img/update.jpg" width="280"/>
+<img src="doc/img/update.png" width="280"/>
