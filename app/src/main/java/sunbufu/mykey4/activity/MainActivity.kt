@@ -69,9 +69,8 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
-        adapter.clickCallback = { update(it) }
-        adapter.longClickCallback = {
-            val account = accounts[it]
+        adapter.clickCallback = { _: Int, account: Account -> update(account) }
+        adapter.longClickCallback = { _: Int, account: Account ->
             android.support.v7.app.AlertDialog.Builder(this)
                     .setTitle("提示")
                     .setMessage("确定删除[${account.getTitle()}]账号信息吗？")
@@ -103,10 +102,10 @@ class MainActivity : AppCompatActivity() {
     /**
      * 跳转到更新页面
      */
-    fun update(id: Int = -1) {
+    fun update(account: Account? = null) {
         val intent = Intent()
-        if (id != -1)
-            intent.putExtra("account", accounts[id])
+        if (account != null)
+            intent.putExtra("account", account)
         intent.setClass(this, UpdateActivity::class.java)
         startActivityForResult(intent, 1000)
     }

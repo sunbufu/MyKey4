@@ -18,9 +18,9 @@ import sunbufu.mykey4.model.Account
 class RecycleAdapter(private var context: Context, private var list: List<Account>) : RecyclerView.Adapter<RecycleAdapter.AccountHolder>(), Filterable {
 
     /**点击回调*/
-    var clickCallback: (Int) -> Unit = { MainApplication.instance.toast("click $it") }
+    var clickCallback: (Int, Account) -> Unit = { id: Int, account: Account -> MainApplication.instance.toast("click id=$id, account=$account") }
     /**长按回调*/
-    var longClickCallback: (Int) -> Unit = { id: Int -> MainApplication.instance.toast("long $id") }
+    var longClickCallback: (Int, Account) -> Unit = { id: Int, account: Account -> MainApplication.instance.toast("long click id=$id, account=$account") }
 
     override fun onBindViewHolder(accountHolder: AccountHolder, id: Int) {
         accountHolder.id = id
@@ -72,9 +72,9 @@ class RecycleAdapter(private var context: Context, private var list: List<Accoun
         var nameText = view.findViewById<TextView>(R.id.nameText)!!
 
         init {
-            view.setOnClickListener { clickCallback(this.id) }
+            view.setOnClickListener { clickCallback(this.id, list[id]) }
             view.setOnLongClickListener {
-                longClickCallback(id)
+                longClickCallback(id, list[id])
                 true
             }
         }
